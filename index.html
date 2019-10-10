@@ -11,17 +11,17 @@
         <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 
         <title>Bootstrap Portfolio</title>
-
     </head>
 
     <body>
       <!--Nav Bar Header-->
+        <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html">Jodi Tivis</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
+                    <div class=" collapse navbar-collapse" id="navbarText">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                           <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -35,17 +35,21 @@
                       </ul>
                     </div>
                   </nav>
+        </header>
+    <!--END nav bar header-->
       
-      <!--Main Body Content-->
-  <div class="container">
-      <!--Image row-->
+    <!--Main Body Content-->
+    <!--Image row-->
+    <div class="container">
       <div class="row">
           <div class="media">
               <div class="col-lg-1">
                 <img src="assets/images/myphoto.jpg" class="align-self-center mr-3" height="270px" width="270px" alt="photo of me">
               </div>
           </div>
-      <!--Paragraph row-->
+    <!--END image row-->
+  
+    <!--Paragraph row-->
           <div class="media-body">
               <div class="col-lg-11">
                 <h5 class="mt-0">About Me</h5>
@@ -58,15 +62,17 @@
           </div>
       </div>
   </div>
+  <!--END main body content-->
 
   <!--Sticky Footer-->
-  <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">Copyright &copy; 2019</span>
-    </div>
-  </footer>
-
-
+  <div class="position-sticky">
+      <footer class="footer">
+         <div class="text-center">
+         <span class="text-muted">Copyright &copy; 2019</span>
+         </div>
+      </footer>
+   </div>
+  <!--END footer-->
 
     </body>
 </html>
