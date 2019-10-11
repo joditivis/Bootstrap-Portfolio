@@ -1,0 +1,30 @@
+body {
+    background-image: url(../images/background.png);
+}
+
+/*Header Navbar*/
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: #050301;
+}
+.navbar-brand:hover {
+    color: #050301
+}
+
+.nav-link {
+    color: #050301;
+}
+.nav-link:hover {
+    color: #a35c00;
+}
+/*END header navbar*/
+
+/*MAIN CONTENT BOX*/
+.container {
+    background-color: #ffffff;
+    margin-top: 3%;
+    border-color: #050301;
+}
