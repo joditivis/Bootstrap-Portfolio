@@ -24,26 +24,36 @@ body {
 }
 /*END header navbar*/
 
+
 /*MAIN CONTENT BOX*/
 .container {
     background-color: #ffffff;
-    margin-top: 3%;
+    margin-top: 2%;
     border-style: solid;
     border-width: 1px;
     padding: 2%;
 }
+img {
+    border: 1px solid #050301;
+}
+hr {
+    border: 1px solid #050301;
+}
 /*END content box*/
+
 
 /*Portfolio Images*/
 .card {
     border: 1px solid #050301;
 }
 
+
 /*Rows on every page*/
 .row {
     padding: 2.5%;
     margin-left: 0.5%;
 }
+
 
 /*Contact section*/
 form {
@@ -58,6 +68,24 @@ form {
     background-color: #050301;
     color: #a35c00;
 }
+
+
+/*Footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+    padding: 13px;
+    margin-bottom: 0;
+    color: #8d8d8d;
+    font-size: 12px;
+    text-align: center;
+    border-top: solid #050301;
+    border-width: 1px;
+}
+/*END footer*/
 
 
 /*980 screen size*/
