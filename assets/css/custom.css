@@ -58,3 +58,36 @@ form {
     background-color: #050301;
     color: #a35c00;
 }
+
+
+/*980 screen size*/
+@media screen and (max-width:980px) {
+    .navbar{
+        position:static;
+    }
+    .container{
+        width:100%;
+    }
+}
+
+
+/*768 screen size*/
+@media screen and (max-width:768px) {}
+    .navbar{
+        position:static;
+    }
+    .container{
+        width:100%;
+    }
+}
+
+
+/*640 screen size*/
+@media screen and (max-width:640px) {
+    .navbar{
+        position:static;
+    }
+    .container{
+        width:100%;
+    }
+}
