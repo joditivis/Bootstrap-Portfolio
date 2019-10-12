@@ -5,15 +5,17 @@ body {
 /*Header Navbar*/
 .navbar {
     background-color: #ffffff;
-}
+    border-bottom: solid #050301;
+    border-width: 1px;
 
+}
 .navbar-brand {
     color: #050301;
+    font-size: 200%;
 }
 .navbar-brand:hover {
     color: #050301
 }
-
 .nav-link {
     color: #050301;
 }
@@ -26,5 +28,33 @@ body {
 .container {
     background-color: #ffffff;
     margin-top: 3%;
-    border-color: #050301;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%;
+}
+/*END content box*/
+
+/*Portfolio Images*/
+.card {
+    border: 1px solid #050301;
+}
+
+/*Rows on every page*/
+.row {
+    padding: 2.5%;
+    margin-left: 0.5%;
+}
+
+/*Contact section*/
+form {
+    margin-left: 15%;
+}
+.btn {
+    background-color: #a35c00;
+    border: #050301;
+    color: #ffffff;
+}
+.btn:hover {
+    background-color: #050301;
+    color: #a35c00;
 }
