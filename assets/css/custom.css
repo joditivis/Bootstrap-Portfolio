@@ -33,8 +33,6 @@ body {
     border-width: 1px;
     padding: 2%;
 }
-img {
-    border: 1px solid #050301;
 }
 hr {
     border: 1px solid #050301;
@@ -94,18 +92,18 @@ footer {
         position:static;
     }
     .container{
-        width:100%;
+        margin-bottom:10%;
+    }
+    body {
+        color: green;
     }
 }
 
 
 /*768 screen size*/
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
     .navbar{
         position:static;
-    }
-    .container{
-        width:100%;
     }
 }
 
