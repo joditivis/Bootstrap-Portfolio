@@ -28,6 +28,10 @@ body {
     color: #1f5872;
     text-decoration: underline;
 }
+
+.select {
+    display: none;
+}
 /*END header navbar*/
 
 
@@ -50,33 +54,33 @@ body {
 }
 .mt-0 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: #1f5872;
+    color: #050301;
 }
 p{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 hr {
-    border: 1px solid #050301;
+    border: 1px solid #1f5872;
 }
 /*END content box*/
 
 
 /*Portfolio Images*/
 .card {
-    border: 2px solid #050301;
+    border: 1px solid #050301;
 }
 .card:hover {
     border: solid #49758a;
     border-width:3px;
-    text-decoration: underline;
+    text-decoration: underline; color:#ada6a6;
 }
 .card-body {
     font-size: 18px;
     background-color: black;
 }
 .card-text {
-    color: #ffffff;
+    color: #ada6a6;
 }
 
 
@@ -93,9 +97,14 @@ hr {
 form {
     margin-left: 15%;
 }
+.form-control {
+    border: solid #1f5872;
+    border-width: 1px;
+}
 .btn {
     background-color: #1f5872;
-    border: #050301;
+    border: solid #050301;
+    border-width: 1px;
     color: #ffffff;
 }
 .btn:hover {
@@ -127,9 +136,11 @@ footer {
     .navbar{
         position:static;
     }
-
     .navbar-toggler{
         color:#050301;
+    }
+    ul{
+        list-style-type:none;
     }
     .card{
         width:288px;
@@ -152,6 +163,9 @@ footer {
     .content{
         margin-left:0px;
     }
+    ul{
+        list-style-type:none;
+    }
     .card-one{
         height:0px;
         width:100%;
@@ -170,34 +184,43 @@ footer {
     .navbar{
         position:static;
     }
+    li{
+        list-style-type:none;
+    }
     .container{
         width:95%;
         margin-left:auto;
+        margin-bottom:15%;
     }
     #myphoto{
         width:100%;
         height:100%;
+        margin-left:-3%;
     }
     p{
         flex-direction:column;
     }
     .card-one{
-       margin-left:14%;
+       margin-left:auto;
+       margin-right:auto;
        height: 273px;
     }
     .card-two{
-        margin-left:14%;
+        margin-left:auto;
+        margin-right:auto;
         padding-top:3%;
      }
      .card-three{
-        margin-left:14%;
+        margin-left:auto;
+        margin-right:auto;
         height: 273px;
      }
      .card-four{
-        margin-left:14%;
+        margin-left:auto;
+        margin-right:auto;
         padding-top:3%;
      }
      form{
-         margin-left:-3%;
+         margin-left:-6%;
      }
 }
