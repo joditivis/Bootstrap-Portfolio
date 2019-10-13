@@ -184,7 +184,7 @@ footer {
     .navbar{
         position:static;
     }
-    li{
+    ul{
         list-style-type:none;
     }
     .container{
