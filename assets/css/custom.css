@@ -30,14 +30,22 @@ body {
 
 
 /*MAIN CONTENT BOX*/
+#myphoto {
+    float:left;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
 .container {
     background-color: #ffffff;
     margin-top: 2%;
     border-style: solid;
     border-width: 1px;
     padding: 2%;
+    margin-bottom: 5%;
+    line-height: 30px;
 }
-}
+
 hr {
     border: 1px solid #050301;
 }
@@ -67,7 +75,7 @@ form {
     color: #ffffff;
 }
 .btn:hover {
-    background-color: #050301;
+    background-color: #ffffff;
     color: #a35c00;
 }
 
@@ -95,11 +103,18 @@ footer {
     .navbar{
         position:static;
     }
-    .container{
-        margin-bottom:10%;
-    }
     .card{
-        width:100%
+        width:288px;
+        height:265px;
+    }
+    .card-two{
+        margin-left:50%;
+    }
+    .card-four{
+        margin-left:50%;
+    }
+    form{
+        margin-left:-3%;
     }
     body {
         color: green;
@@ -109,15 +124,20 @@ footer {
 
 /*768 screen size*/
 @media screen and (max-width:768px) {
-    .navbar{
-        position:static;
+    .content{
+        margin-left:0px;
     }
-    .container{
-        margin-left:25px;
-    }
-    .card{
+    .card-one{
+        height:0px;
         width:100%;
     }
+    .card-three{
+        height:0px;
+    }
+    form{
+        margin-left:-3%;
+    }
+
     body{
         color:pink;
     }
@@ -130,14 +150,28 @@ footer {
         position:static;
     }
     .container{
-        width:90%;
+        width:100%;
+        margin-left:7%;
     }
-    .first-row{
-        flex-direction:column;
+    .card-one{
+       margin-left:14%;
+       height: 273px;
     }
-    .second-row{
-        flex-direction:column;
-    }
+    .card-two{
+        margin-left:14%;
+        padding-top:3%;
+     }
+     .card-three{
+        margin-left:14%;
+        height: 273px;
+     }
+     .card-four{
+        margin-left:14%;
+        padding-top:3%;
+     }
+     form{
+         margin-left:-3%;
+     }
     body{
         color:blue;
     }
