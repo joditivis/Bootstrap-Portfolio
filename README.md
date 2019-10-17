@@ -5,7 +5,7 @@
 __Tools/Languages Used:__
 ```
 - HTML5
-- Bootstrap CSS [link](https://getbootstrap.com/)
+- Bootstrap CSS (getbootstrap.com)
 - Custom CSS
   -> media queries used within Custom CSS for a responsive and functioning sight for any viewport 
 ```
