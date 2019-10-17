@@ -1,7 +1,6 @@
 # Bootstrap-Portfolio
 
-## Link to Webpage: https://joditivis.github.io/Bootstrap-Portfolio/
----
+ __Link to Webpage: https://joditivis.github.io/Bootstrap-Portfolio/__
 
 __Tools/Languages Used:__
 ```
