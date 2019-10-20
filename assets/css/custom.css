@@ -82,6 +82,12 @@ hr {
 .card-text {
     color: #ada6a6;
 }
+a {
+    color: #ada6a6;
+}
+a:hover {
+    color: #49758a;
+}
 
 
 /*Rows on every page*/
